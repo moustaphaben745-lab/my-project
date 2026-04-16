@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      text-align: center;
+      padding-top: 80px;
+      color: white;
+    }
+
+    #box {
+      background: white;
+      color: #333;
+      width: 360px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    #user {
+      font-size: 18px;
+      margin: 20px 0;
+      font-weight: bold;
+    }
+
+    button {
+      padding: 10px 22px;
+      border: none;
+      cursor: pointer;
+      background: #ff4d4d;
+      color: white;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: 0.2s;
+    }
+
+    button:hover {
+      background: #e60000;
+      transform: scale(1.05);
+    }
+
+    .card {
+      margin-top: 10px;
+      padding: 10px;
+      background: #f5f5f5;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="box">
+
+    <h2>Dashboard 🔐</h2>
+
+    <div class="card">
+      <p id="user">Loading user...</p>
+    </div>
+
+    <button onclick="logout()">Logout</button>
+
+  </div>
+
+  <script>
+
+    const token = localStorage.getItem("token");
+    const username = localStorage.getItem("username");
+
+    // ❌ حماية الصفحة
+    if (!token) {
+      alert("Please login first ❌");
+      window.location.href = "index.html";
+    }
+
+    // 🟢 تحميل البيانات من السيرفر
+    async function loadDashboard() {
+      try {
+        const res = await fetch("http://localhost:3000/dashboard", {
+          headers: {
+            "Authorization": "Bearer " + token
+          }
+        });
+
+        const data = await res.json();
+
+        if (res.ok) {
+          document.getElementById("user").innerText =
+            "Welcome back 👋 " + (username || "User");
+        } else {
+          document.getElementById("user").innerText =
+            "Session expired ❌";
+        }
+
+      } catch (error) {
+        document.getElementById("user").innerText =
+          "Server error ❌";
+      }
+    }
+
+    // 🔴 Logout
+    function logout() {
+      localStorage.removeItem("token");
+      localStorage.removeItem("username");
+      window.location.href = "index.html";
+    }
+
+    loadDashboard();
+
+  </script>
+
+</body>
+</html>
