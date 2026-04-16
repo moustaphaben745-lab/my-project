@@ -1,0 +1,51 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 15 Apr 2026 18:23:30 at https://www.alhokail.com.sa/ar/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A9-%D8%AF%D9%84%D9%8A%D9%84%D9%83-%D9%84%D9%81%D9%87%D9%85-%D9%86%D8%AA%D8%A7%D8%A6 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.alhokail.com.sa/ar/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A9-%D8%AF%D9%84%D9%8A%D9%84%D9%83-%D9%84%D9%81%D9%87%D9%85-%D9%86%D8%AA%D8%A7%D8%A6 -O1 "C:\Users\Dell\OneDrive\Attachments\Desktop\gropage" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:25:11	Error: 	"Bad Request" (400) at link www.googletagmanager.com/gtm.js?id= (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://apps.bc-cdn.net:443/widget.js (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.alhokail.com.sa/apple-icon-57x57.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.alhokail.com.sa/apple-icon-60x60.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/apple-icon-72x72.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/apple-icon-76x76.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/apple-icon-114x114.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/apple-icon-120x120.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/apple-icon-144x144.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/apple-icon-152x152.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/apple-icon-180x180.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/android-icon-192x192.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/favicon-32x32.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/favicon-96x96.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:25:11	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/favicon-16x16.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:29:00	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://apps.bc-cdn.net:443/widget.js (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:29:00	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.alhokail.com.sa/apple-icon-57x57.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:29:00	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.alhokail.com.sa/apple-icon-60x60.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:29:06	Error: 	Unable to save file C:/Users/Dell/OneDrive/Attachments/Desktop/gropage/www.alhokail.com.sa/ar/الدليل-الشامل-لطب-وجراحة-وتجميل-الأسن/feed: No such file or directory
+18:29:50	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/ar/https:/www.alhokail.com.sa/wp-content/uploads/2025/11/Screenshot-2025-11-02-120824.png (from https://www.alhokail.com.sa/ar/dermatology-and-cosmetics)
+18:29:50	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/ar/https:/www.alhokail.com.sa/wp-content/uploads/2025/11/%d9%85%d8%ad%d9%85%d8%af-%d8%a7%d9%84%d8%b9%d8%a8%d8%af%d8%a7%d9%84%d9%84%d9%87.png (from https://www.alhokail.com.sa/ar/dermatology-and-cosmetics)
+18:29:50	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/ar/https:/www.alhokail.com.sa/wp-content/uploads/2025/11/%d8%b1%d8%a7%d8%ac%d9%8a%d8%a9.png (from https://www.alhokail.com.sa/ar/dermatology-and-cosmetics)
+18:29:50	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/ar/https:/www.alhokail.com.sa/wp-content/uploads/2025/11/%d8%a7%d9%85%d9%8a%d8%b1%d8%a9-%d8%ac%d9%85%d8%a7%d9%84.png (from https://www.alhokail.com.sa/ar/dermatology-and-cosmetics)
+18:29:50	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/ar/https:/www.alhokail.com.sa/wp-content/uploads/2025/11/%d8%a7%d8%a8%d8%b1%d8%a9-%d8%a7%d9%84%d8%b3%d9%84%d9%85%d9%88%d9%86.png (from https://www.alhokail.com.sa/ar/dermatology-and-cosmetics)
+18:30:34	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/wp-content/uploads/2024/05/image-accordion-11.jpg (from https://www.alhokail.com.sa/ar/hijama)
+18:31:10	Error: 	Unable to save file C:/Users/Dell/OneDrive/Attachments/Desktop/gropage/www.alhokail.com.sa/ar/tag/أطباء-طب-العيون/feed: No such file or directory
+18:31:18	Error: 	Unable to save file C:/Users/Dell/OneDrive/Attachments/Desktop/gropage/www.alhokail.com.sa/ar/tag/أطباء-طب-العيون-الدمام/feed: No such file or directory
+18:34:00	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://apps.bc-cdn.net:443/widget.js (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:34:00	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://www.alhokail.com.sa/apple-icon-57x57.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:34:00	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://www.alhokail.com.sa/apple-icon-60x60.png (from https://www.alhokail.com.sa/ar/قراءة-التحاليل-الطبية-دليلك-لفهم-نتائ)
+18:34:00	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.alhokail.com.sa/wp-content/uploads/2026/03/BG.png (from https://www.alhokail.com.sa/wp-content/uploads/elementor/css/post-3001.css?ver=1776235839)
+18:34:56	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/wp-content/uploads/2023/10/Ø§ÙÙØ³Ø§Ø¦ÙØ©-scaled.jpg (from https://www.alhokail.com.sa/wp-content/uploads/elementor/css/post-4547.css?ver=1776236145)
+18:34:56	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/wp-content/uploads/2023/10/Ø§ÙØ­Ø¬Ø§ÙØ©-scaled.jpg (from https://www.alhokail.com.sa/wp-content/uploads/elementor/css/post-4542.css?ver=1776236039)
+18:34:56	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/wp-content/uploads/2023/10/Ø§ÙØ­Ø¬Ø§ÙØ©-1.png (from https://www.alhokail.com.sa/wp-content/uploads/elementor/css/post-4542.css?ver=1776236039)
+18:35:20	Warning: 	Moved Permanently for https://www.alhokail.com.sa/ar/home-page/
+18:35:20	Warning: 	File has moved from https://www.alhokail.com.sa/ar/home-page/ to https://www.alhokail.com.sa/ar/home-page
+18:35:26	Error: 	"Not Found" (404) at link https://www.alhokail.com.sa/wp-content/uploads/2023/10/Ø¬Ø±Ø§Ø­Ø§Øª-Ø§ÙØ³ÙÙØ©-scaled.jpg (from https://www.alhokail.com.sa/wp-content/uploads/elementor/css/post-4339.css?ver=1776236176)
+18:35:51	Warning: 	Moved Permanently for https://www.alhokail.com.sa/ar/blogs/
+18:35:51	Warning: 	File has moved from https://www.alhokail.com.sa/ar/blogs/ to https://www.alhokail.com.sa/ar/blogs
+18:36:44	Error: 	Unable to save file C:/Users/Dell/OneDrive/Attachments/Desktop/gropage/www.alhokail.com.sa/ar/ما-تحتاجين-لمعرفته-حول-تضييق-المهبل/feed: No such file or directory
+
+HTTrack Website Copier/3.49-2 mirror complete in 13 minutes 28 seconds : 941 links scanned, 906 files written (285516452 bytes overall) [258024556 bytes received at 319337 bytes/sec], 37099726 bytes transferred using HTTP compression in 344 files, ratio 18%, 10.6 requests per connection
+(29 errors, 11 warnings, 0 messages)

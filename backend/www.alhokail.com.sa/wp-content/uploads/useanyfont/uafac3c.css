@@ -1,0 +1,19 @@
+				@font-face {
+					font-family: '29lt-bukra-400-n';
+					src: url('97929LT-Bukra-400-N.woff2') format('woff2'),
+						url('97929LT-Bukra-400-N.woff') format('woff');
+					font-weight: 400; font-style: normal; font-display: swap;
+				}
+
+				.29lt-bukra-400-n{font-family: '29lt-bukra-400-n' !important;}
+
+						body, p, .menu-menu-ar-container li a, .menu-menu-ar-container li span, #menu-menu-ar li a, #menu-menu-ar li span{
+					font-family: '29lt-bukra-400-n' !important;
+				}
+						h1, h2, h3, h4, h5, h6, .entry-title, body.single-post .entry-title, body.page .entry-title, body.category .entry-title, .widget-title, blockquote, li, a{
+					font-family: '29lt-bukra-400-n' !important;
+				}
+						h1, h2, h3, h4, h5, h6, .entry-title, body.single-post .entry-title, body.page .entry-title, body.category .entry-title, .widget-title, .site-title, .site-description, body, p, blockquote, li, a, strong, b, em, .menu-menu-ar-container li a, .menu-menu-ar-container li span, #menu-menu-ar li a, #menu-menu-ar li span, .menu-menu-en-container li a, .menu-menu-en-container li span, #menu-menu-en li a, #menu-menu-en li span{
+					font-family: '29lt-bukra-400-n' !important;
+				}
+		

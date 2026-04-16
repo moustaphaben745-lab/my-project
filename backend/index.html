@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login System</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      background: #eef;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    input {
+      display: block;
+      margin: 10px auto;
+      padding: 10px;
+      width: 200px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    #box {
+      background: white;
+      width: 300px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="box">
+
+    <h2>Register / Login</h2>
+
+    <input id="username" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+
+    <button onclick="register()">Register</button>
+    <button onclick="login()">Login</button>
+
+    <p id="result"></p>
+
+  </div>
+
+  <script>
+
+    // 🟢 Register
+    async function register() {
+      const res = await fetch("http://localhost:3000/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          username: document.getElementById("username").value,
+          password: document.getElementById("password").value
+        })
+      });
+
+      const data = await res.json();
+      document.getElementById("result").innerText = data.message;
+    }
+
+    // 🔵 Login
+    async function login() {
+      const res = await fetch("http://localhost:3000/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          username: document.getElementById("username").value,
+          password: document.getElementById("password").value
+        })
+      });
+
+      const data = await res.json();
+
+      if (data.token) {
+        // 🔥 حفظ التوكن + اسم المستخدم
+        localStorage.setItem("token", data.token);
+        localStorage.setItem("username", data.username);
+
+        // 🔥 انتقال للداشبورد
+        window.location.href = "dashboard.html";
+
+      } else {
+        document.getElementById("result").innerText = data.message;
+      }
+    }
+
+  </script>
+
+</body>
+
+</html>

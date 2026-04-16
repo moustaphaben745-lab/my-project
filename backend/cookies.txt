@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.alhokail.com.sa	TRUE	/	FALSE	1999999999	pll_language	ar
+www.alhokail.com.sa	TRUE	/	FALSE	1999999999	SameSite	Lax
+

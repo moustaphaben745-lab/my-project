@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login System</title>
+</head>
+<body>
+
+  <h2>Register</h2>
+  <input id="regUser" placeholder="username">
+  <input id="regPass" placeholder="password" type="password">
+  <button onclick="register()">Register</button>
+
+  <hr>
+
+  <h2>Login</h2>
+  <input id="logUser" placeholder="username">
+  <input id="logPass" placeholder="password" type="password">
+  <button onclick="login()">Login</button>
+
+  <p id="result"></p>
+
+  <script>
+    const API = "http://localhost:3000";
+
+    // Register
+    async function register() {
+      const res = await fetch(API + "/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          username: document.getElementById("regUser").value,
+          password: document.getElementById("regPass").value
+        })
+      });
+
+      const data = await res.json();
+      document.getElementById("result").innerText = JSON.stringify(data);
+    }
+
+    // Login
+    async function login() {
+      const res = await fetch(API + "/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          username: document.getElementById("logUser").value,
+          password: document.getElementById("logPass").value
+        })
+      });
+
+      const data = await res.json();
+
+      document.getElementById("result").innerText = JSON.stringify(data);
+
+      // حفظ التوكن
+      if (data.token) {
+        localStorage.setItem("token", data.token);
+      }
+    }
+  </script>
+
+</body>
+</html>
+<hr>
+
+<h2>Dashboard</h2>
+<button onclick="checkLogin()">Check Login</button>
+<p id="dash"></p>
+
+<script>
+function checkLogin() {
+  const token = localStorage.getItem("token");
+
+  if (!token) {
+    document.getElementById("dash").innerText = "❌ Not logged in";
+    return;
+  }
+
+  document.getElementById("dash").innerText = "✅ Logged in with token:\n" + token;
+}
+</script>

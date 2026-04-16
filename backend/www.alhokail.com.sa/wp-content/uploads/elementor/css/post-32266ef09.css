@@ -1,0 +1,38 @@
+.elementor-32266 .elementor-element.elementor-element-9e208d7{--display:flex;--position:fixed;--flex-direction:row-reverse;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap-reverse;--border-radius:30px 30px 30px 30px;top:455px;}body:not(.rtl) .elementor-32266 .elementor-element.elementor-element-9e208d7{right:-210px;}body.rtl .elementor-32266 .elementor-element.elementor-element-9e208d7{left:-210px;}.elementor-32266 .elementor-element.elementor-element-c167644{--display:flex;--border-radius:20px 20px 20px 20px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-32266 .elementor-element.elementor-element-ea66b0a{--e-image-carousel-slides-to-show:1;border-radius:30px 30px 30px 30px;}.elementor-32266 .elementor-element.elementor-element-ea66b0a .elementor-swiper-button.elementor-swiper-button-prev, .elementor-32266 .elementor-element.elementor-element-ea66b0a .elementor-swiper-button.elementor-swiper-button-next{font-size:13px;}.elementor-32266 .elementor-element.elementor-element-ea66b0a .swiper-pagination-bullet{--swiper-pagination-bullet-horizontal-gap:4px;--swiper-pagination-bullet-vertical-gap:4px;}.elementor-32266 .elementor-element.elementor-element-ea66b0a .elementor-image-carousel-wrapper .elementor-image-carousel .swiper-slide-image{border-radius:30px 30px 30px 30px;}#elementor-popup-modal-32266{background-color:rgba(0,0,0,.8);justify-content:center;align-items:center;pointer-events:all;}#elementor-popup-modal-32266 .dialog-message{width:640px;height:auto;}#elementor-popup-modal-32266 .dialog-close-button{display:flex;}#elementor-popup-modal-32266 .dialog-widget-content{box-shadow:2px 8px 23px 3px rgba(0,0,0,0.2);}@media(min-width:768px){.elementor-32266 .elementor-element.elementor-element-c167644{--width:50%;}}@media(max-width:767px){body:not(.rtl) .elementor-32266 .elementor-element.elementor-element-9e208d7{right:-1px;}body.rtl .elementor-32266 .elementor-element.elementor-element-9e208d7{left:-1px;}.elementor-32266 .elementor-element.elementor-element-9e208d7{top:527px;}}/* Start custom CSS for container, class: .elementor-element-9e208d7 */#elementor-popup-modal-32266{
+        background-color: transparent;
+}
+
+
+.elementor-element .swiper .swiper-horizontal>.swiper-pagination-bullets, .elementor-element .swiper .swiper-pagination-bullets.swiper-pagination-horizontal, .elementor-element .swiper .swiper-pagination-custom, .elementor-element .swiper .swiper-pagination-fraction, .elementor-element .swiper~.swiper-pagination-bullets.swiper-pagination-horizontal, .elementor-element .swiper~.swiper-pagination-custom, .elementor-element .swiper~.swiper-pagination-fraction, .elementor-lightbox .swiper .swiper-horizontal>.swiper-pagination-bullets, .elementor-lightbox .swiper .swiper-pagination-bullets.swiper-pagination-horizontal, .elementor-lightbox .swiper .swiper-pagination-custom, .elementor-lightbox .swiper .swiper-pagination-fraction, .elementor-lightbox .swiper~.swiper-pagination-bullets.swiper-pagination-horizontal, .elementor-lightbox .swiper~.swiper-pagination-custom, .elementor-lightbox .swiper~.swiper-pagination-fraction{
+    bottom: 45px;
+}
+
+
+.elementor-popup-modal .dialog-close-button{
+        position: absolute;
+    top: 100px;
+    left:70px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px ;
+   
+    background-color: white;
+}
+
+
+@media (max-width: 767px) {
+    .elementor-popup-modal .dialog-close-button{
+        left: unset;
+        right: 25px;
+         top: 105px;
+    }
+}
+
+html[lang="en-US"] .elementor-popup-modal .dialog-close-button{
+     left:unset;
+     right: 70px;
+      top: 110px;
+}/* End custom CSS */
